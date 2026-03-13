@@ -1,0 +1,72 @@
+2026-03-14 00:44:52 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 00:44:52 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'api_key': None, 'api_secret': None, 'log_dir': 'logs'}
+2026-03-14 00:44:52 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables, or pass --api-key / --api-secret.
+2026-03-14 00:45:49 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 00:45:49 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'api_key': 'dS4xLe1vnlYRjmlreCOLqMj1SDtp3Jp1qDBxHJJbiBTGSfKeaAXHa4nQuKUDkTvp', 'api_secret': 'SqfTT4DezlSYr6ld1D59OMnQwcpVIgZvZeyz7tI1tyQJoNLV4sK6Ypn88lwfDgdD', 'log_dir': 'logs'}
+2026-03-14 00:45:49 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 00:45:49 | INFO     | trading_bot.orders | MARKET order → BUY BTCUSDT qty=0.001
+2026-03-14 00:45:49 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-14 00:45:49 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1773429349378, 'signature': 'd4d0f42f0d81ea9569fd5754f462cc089d0dc5758ffab05306552fee77ae99a6'}
+2026-03-14 00:45:51 | DEBUG    | trading_bot.client | Response 401 | {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-14 00:45:51 | ERROR    | trading_bot.client | Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-03-14 00:45:51 | ERROR    | trading_bot | Order failed → Binance error -2015: Invalid API-key, IP, or permissions for action | detail={'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-03-14 00:46:59 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 00:46:59 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'api_key': 'dS4xLe1vnlYRjmlreCOLqMj1SDtp3Jp1qDBxHJJbiBTGSfKeaAXHa4nQuKUDkTvp', 'api_secret': 'SqfTT4DezlSYr6ld1D59OMnQwcpVIgZvZeyz7tI1tyQJoNLV4sK6Ypn88lwfDgdD', 'log_dir': 'logs'}
+2026-03-14 00:46:59 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 00:46:59 | INFO     | trading_bot.orders | MARKET order → BUY BTCUSDT qty=0.001
+2026-03-14 00:46:59 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-14 00:46:59 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1773429419199, 'signature': 'd6b019d5b12e51181a195b9f0af9937551387f2c6bc05cd994edbaf35f6a408e'}
+2026-03-14 00:47:01 | DEBUG    | trading_bot.client | Response 401 | {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-14 00:47:01 | ERROR    | trading_bot.client | Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-03-14 00:47:01 | ERROR    | trading_bot | Order failed → Binance error -2015: Invalid API-key, IP, or permissions for action | detail={'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'}
+2026-03-14 00:56:48 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 00:56:48 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'api_key': None, 'api_secret': None, 'log_dir': 'logs'}
+2026-03-14 00:56:48 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables, or pass --api-key / --api-secret.
+2026-03-14 00:58:54 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 00:58:54 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.001', 'price': None, 'stop_price': None, 'api_key': 'FbkEBDnssyUPgMbnK7eu6R230PTA2TYQvEk3NJlpUw1farCF6JHlHeiKV4P3U12m', 'api_secret': 'cXxV7Rm88CJTAG4sk1y2ZGc3hACsdEfL06310h7x5zVwnlnrXtdZYn6gfCduxbFF', 'log_dir': 'logs'}
+2026-03-14 00:58:54 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 00:58:54 | INFO     | trading_bot.orders | MARKET order → BUY BTCUSDT qty=0.001
+2026-03-14 00:58:54 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-14 00:58:54 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1773430134104, 'signature': 'fa6afc18afb52fbb6d1c12636c8b90ed668d6bdd253d0c81ee21d3ccf70bd8ea'}
+2026-03-14 00:58:55 | DEBUG    | trading_bot.client | Response 400 | {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-14 00:58:55 | ERROR    | trading_bot.client | Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 00:58:55 | ERROR    | trading_bot | Order failed → Binance error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only). | detail={'code': -4164, 'msg': "Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-14 01:00:13 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 01:00:13 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.002', 'price': None, 'stop_price': None, 'api_key': None, 'api_secret': None, 'log_dir': 'logs'}
+2026-03-14 01:00:13 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET as environment variables, or pass --api-key / --api-secret.
+2026-03-14 01:00:37 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 01:00:37 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'MARKET', 'quantity': '0.002', 'price': None, 'stop_price': None, 'api_key': 'FbkEBDnssyUPgMbnK7eu6R230PTA2TYQvEk3NJlpUw1farCF6JHlHeiKV4P3U12m', 'api_secret': 'cXxV7Rm88CJTAG4sk1y2ZGc3hACsdEfL06310h7x5zVwnlnrXtdZYn6gfCduxbFF', 'log_dir': 'logs'}
+2026-03-14 01:00:37 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 01:00:37 | INFO     | trading_bot.orders | MARKET order → BUY BTCUSDT qty=0.002
+2026-03-14 01:00:37 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-03-14 01:00:37 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1773430237804, 'signature': 'f01e2c445cbb42feca3795e94902e0bdcc6a6b850a04f5637765caa9923a9764'}
+2026-03-14 01:00:39 | DEBUG    | trading_bot.client | Response 200 | {"orderId":12794118208,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"STwXoiRuGdz8CmzGiVkIBU","price":"0.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origTyp
+2026-03-14 01:00:39 | INFO     | trading_bot.orders | MARKET accepted → orderId=12794118208 status=NEW
+2026-03-14 01:00:39 | INFO     | trading_bot | Order successful → {'orderId': 12794118208, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'STwXoiRuGdz8CmzGiVkIBU', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773430239311}
+2026-03-14 01:07:13 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 01:07:13 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': '0.002', 'price': '160000', 'stop_price': None, 'api_key': 'FbkEBDnssyUPgMbnK7eu6R230PTA2TYQvEk3NJlpUw1farCF6JHlHeiKV4P3U12m', 'api_secret': 'cXxV7Rm88CJTAG4sk1y2ZGc3hACsdEfL06310h7x5zVwnlnrXtdZYn6gfCduxbFF', 'log_dir': 'logs'}
+2026-03-14 01:07:13 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 01:07:13 | INFO     | trading_bot.orders | LIMIT order → BUY BTCUSDT qty=0.002 price=160000.0 TIF=GTC
+2026-03-14 01:07:13 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 160000.0, 'timeInForce': 'GTC'}
+2026-03-14 01:07:13 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 160000.0, 'timeInForce': 'GTC', 'timestamp': 1773430633442, 'signature': '191b24434ff3aeebc88e06e948bacfc3c4b0a623c56ccc29957b30e090d6be5b'}
+2026-03-14 01:07:15 | DEBUG    | trading_bot.client | Response 400 | {"code":-4016,"msg":"Limit price can't be higher than 74627.36."}
+2026-03-14 01:07:15 | ERROR    | trading_bot.client | Binance API error -4016: Limit price can't be higher than 74627.36.
+2026-03-14 01:07:15 | ERROR    | trading_bot | Order failed → Binance error -4016: Limit price can't be higher than 74627.36. | detail={'code': -4016, 'msg': "Limit price can't be higher than 74627.36."}
+2026-03-14 01:07:41 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 01:07:41 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': '0.002', 'price': '80000', 'stop_price': None, 'api_key': 'FbkEBDnssyUPgMbnK7eu6R230PTA2TYQvEk3NJlpUw1farCF6JHlHeiKV4P3U12m', 'api_secret': 'cXxV7Rm88CJTAG4sk1y2ZGc3hACsdEfL06310h7x5zVwnlnrXtdZYn6gfCduxbFF', 'log_dir': 'logs'}
+2026-03-14 01:07:41 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 01:07:41 | INFO     | trading_bot.orders | LIMIT order → BUY BTCUSDT qty=0.002 price=80000.0 TIF=GTC
+2026-03-14 01:07:41 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-03-14 01:07:41 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 80000.0, 'timeInForce': 'GTC', 'timestamp': 1773430661407, 'signature': 'cf6ef3ed40446202ecd5ed313d2aacfff70941824e6c209bc6404cc5806d2bd7'}
+2026-03-14 01:07:42 | DEBUG    | trading_bot.client | Response 400 | {"code":-4016,"msg":"Limit price can't be higher than 74651.54."}
+2026-03-14 01:07:42 | ERROR    | trading_bot.client | Binance API error -4016: Limit price can't be higher than 74651.54.
+2026-03-14 01:07:42 | ERROR    | trading_bot | Order failed → Binance error -4016: Limit price can't be higher than 74651.54. | detail={'code': -4016, 'msg': "Limit price can't be higher than 74651.54."}
+2026-03-14 01:07:57 | INFO     | trading_bot | Logging started → logs\trading_bot_20260314.log
+2026-03-14 01:07:57 | INFO     | trading_bot | CLI called with: {'symbol': 'BTCUSDT', 'side': 'BUY', 'order_type': 'LIMIT', 'quantity': '0.002', 'price': '70000', 'stop_price': None, 'api_key': 'FbkEBDnssyUPgMbnK7eu6R230PTA2TYQvEk3NJlpUw1farCF6JHlHeiKV4P3U12m', 'api_secret': 'cXxV7Rm88CJTAG4sk1y2ZGc3hACsdEfL06310h7x5zVwnlnrXtdZYn6gfCduxbFF', 'log_dir': 'logs'}
+2026-03-14 01:07:57 | INFO     | trading_bot.client | Client ready → https://testnet.binancefuture.com
+2026-03-14 01:07:57 | INFO     | trading_bot.orders | LIMIT order → BUY BTCUSDT qty=0.002 price=70000.0 TIF=GTC
+2026-03-14 01:07:57 | INFO     | trading_bot.client | Sending order → {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-03-14 01:07:57 | DEBUG    | trading_bot.client | POST https://testnet.binancefuture.com/fapi/v1/order | body={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 70000.0, 'timeInForce': 'GTC', 'timestamp': 1773430677410, 'signature': '8a077c21b4321d52173ad1773a22d21b0855d51d870ae243e317290f0610ad0e'}
+2026-03-14 01:07:58 | DEBUG    | trading_bot.client | Response 200 | {"orderId":12794227872,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"Q93hMVKaGBfY44vKFRhBVz","price":"70000.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"orig
+2026-03-14 01:07:58 | INFO     | trading_bot.orders | LIMIT accepted → orderId=12794227872 status=NEW
+2026-03-14 01:07:58 | INFO     | trading_bot | Order successful → {'orderId': 12794227872, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'Q93hMVKaGBfY44vKFRhBVz', 'price': '70000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773430678539}
